@@ -11,7 +11,8 @@
         <entry key="app/src/main/res/drawable/mypage.xml" value="0.246875" />
         <entry key="app/src/main/res/drawable/note.xml" value="0.246875" />
         <entry key="app/src/main/res/drawable/search.xml" value="0.246875" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.13854166666666667" />
       </map>
     </option>
   </component>
