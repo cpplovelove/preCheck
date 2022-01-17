@@ -21,11 +21,10 @@
         android:textFontWeight="100"
         android:background="#605CFF"/>
 
-
-    <fragment
-        android:id="@+id/fragment"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="1500px" />
+        android:layout_height="1500px"
+        android:id="@+id/mainFragment"/>
 
     <LinearLayout
         android:layout_width="match_parent"
