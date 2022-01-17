@@ -14,6 +14,5 @@ class MainActivity : AppCompatActivity() {
 
     fun tempFunction() {
         var binding = ActivityMainBinding.inflate(layoutInflater);
-
     }
 }
