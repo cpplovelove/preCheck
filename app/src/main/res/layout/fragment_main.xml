@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--        헤더-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#615CFF"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="900px"
+                android:layout_height="40dp"
+                android:background="@drawable/box_border"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="5dp"
+                    android:src="@drawable/search_bar" />
+
+                <EditText
+                    android:layout_width="800dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:hint="복용한 약물을 검색하세요."
+                    android:textColorHint="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="120px"
+            android:orientation="horizontal"
+            />
+        <!--        바디-->
+        <FrameLayout
+            android:id="@+id/cardNews"
+            android:layout_width="match_parent"
+            android:layout_height="800px"
+            android:background="#AAAAAA"/>
+
+        <FrameLayout
+            android:id="@+id/community"
+            android:layout_width="match_parent"
+            android:layout_height="800px"
+            android:background="@color/purple_200"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

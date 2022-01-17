@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120px"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:text="로그인"
+            android:gravity="center"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="180px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/idText"
+                android:layout_width="100px"
+                android:layout_height="60px"
+                android:text="id" />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="600px"
+                android:layout_height="60px" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="180px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pwText"
+                android:layout_width="100px"
+                android:layout_height="60px"
+                android:text="password" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="600px"
+                android:layout_height="60px" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/signUp"
+                android:layout_marginHorizontal="15px"
+                android:layout_width="250px"
+                android:layout_height="100px"
+                android:background="#DFDFDF"
+                android:backgroundTint="#DFDFDF"
+                android:text="회원가입" />
+
+            <Button
+                android:id="@+id/signIn"
+                android:layout_marginHorizontal="15px"
+                android:layout_width="250px"
+                android:layout_height="100px"
+                android:background="#615CFF"
+                android:text="로그인"/>
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+</FrameLayout>
+
