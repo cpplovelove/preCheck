@@ -16,14 +16,12 @@
         android:text="home"
         android:textSize="20dp"
         android:textAlignment="center"
-        android:paddingVertical="10dp"
-        android:layout_marginBottom="10dp"
         android:textFontWeight="100"
         android:background="#605CFF"/>
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="1500px"
+        android:layout_height="1300px"
         android:id="@+id/mainFragment"/>
 
     <LinearLayout

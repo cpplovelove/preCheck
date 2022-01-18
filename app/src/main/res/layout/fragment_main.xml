@@ -49,14 +49,12 @@
         <FrameLayout
             android:id="@+id/cardNews"
             android:layout_width="match_parent"
-            android:layout_height="800px"
-            android:background="#AAAAAA"/>
+            android:layout_height="500px"/>
 
         <FrameLayout
             android:id="@+id/community"
             android:layout_width="match_parent"
-            android:layout_height="800px"
-            android:background="@color/purple_200"/>
+            android:layout_height="500px"/>
 
 
     </LinearLayout>
