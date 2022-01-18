@@ -18,12 +18,12 @@
             android:src="@drawable/logo"/>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="80px"
+            android:layout_height="100px"
             android:text="로그인"
             android:gravity="center"/>
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
-            android:layout_height="180px"
+            android:layout_height="190px"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -36,13 +36,13 @@
             <EditText
                 android:id="@+id/id"
                 android:layout_width="600px"
-                android:layout_height="60px" />
+                android:layout_height="130px" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
-            android:layout_height="180px"
+            android:layout_height="190px"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -55,7 +55,7 @@
             <EditText
                 android:id="@+id/password"
                 android:layout_width="600px"
-                android:layout_height="60px" />
+                android:layout_height="130px" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
